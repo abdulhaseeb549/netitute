@@ -41,8 +41,8 @@
     margin-left: 5%;
 }
 .nav-link{
-    width: 120%;
-    height: 40%;
+    width: 140%;
+    height: 50%;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.5px;
@@ -54,8 +54,8 @@
       
 }
 .nav-link svg{
-    width: 4vw;
-    height: 4vh;    
+    width: 3vw;
+    height: 3vh;    
     fill: #82A3F8;
 
 }
