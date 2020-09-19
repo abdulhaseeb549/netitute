@@ -50,9 +50,8 @@
     font-size: 1vw;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1%;
-    font-weight: 550;
-    background-color: #e65252;
-    color: rgba(0, 0, 0, 0.70);
+    font-weight:bold ;
+    color: rgba(0, 0, 0, 0.50);
     text-decoration: none;
 }
 .nav-item{
@@ -62,24 +61,23 @@
 .nav-link svg{
     width: 3vw;
     height: 3vh;    
-    fill: #82A3F8;
+    fill: rgba(0, 0, 0, 0.40);
     vertical-align: text-top;
 }
+.nav-link svg:hover{
+    fill: #2F66F3; 
+ }
 .nav-link:hover{
-    background-color: #2F66F3;
+   color: #2F66F3;
     border-radius: 10px;
-    color: white;
-    padding: 18%;
-    
 }
-
 #welcome{
     position: absolute;
     width: 40vw;
     height: 20vh;
     font-family:'Baloo Bhai 2', cursive;
     font-size: 2vw;
-    line-height: 220%;
+    
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
@@ -92,7 +90,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1vw;
-    line-height: 0px;
+    line-height: 140%;
     color: rgba(0, 0, 0, 0.65);
 }
 #hiboy{
