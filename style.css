@@ -73,7 +73,7 @@
     height: 20vh;
     font-family:'Baloo Bhai 2', cursive;
     font-size: 2vw;
-    line-height: 57px;
+    line-height: 250%;
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
@@ -300,12 +300,10 @@ th{
        
         width: 100%;
         height: 10vh;
-        margin:100% 0% 0% 0%;
-        position: fixed;
+        margin:100vw 0% 0% 0%;
+        position: absolute;
         background: #FFFFFF;
-       
         box-shadow: 0px -2px 7px rgba(109, 148, 247, 0.15);
-       
         overflow: hidden;
 }
 
@@ -314,21 +312,21 @@ th{
     width: 40vw;
     height: 20vh;
     font-family:'Baloo Bhai 2', cursive;
-    font-size: 2vw;
-    line-height: 57px;
+    font-size: 1vw;
+    line-height: 250%;
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
     margin: 2% 0% 0% 16.5%;
-    padding: 4vh 5% 5% 5vw;
-    overflow: hidden;
+    padding: 1vh 5% 5% 3vw;
+    overflow: visible;
 }
 .gud2cu{
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 1vw;
-    line-height: 0px;
+    font-size: 0.5vw;
+    line-height: -30%;
     color: rgba(0, 0, 0, 0.65);
 }
 #hiboy{
