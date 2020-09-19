@@ -73,7 +73,7 @@
     height: 20vh;
     font-family:'Baloo Bhai 2', cursive;
     font-size: 2vw;
-    line-height: 250%;
+    line-height: 220%;
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
@@ -312,20 +312,20 @@ th{
     width: 40vw;
     height: 20vh;
     font-family:'Baloo Bhai 2', cursive;
-    font-size: 1vw;
-    line-height: 250%;
+    font-size: 2vw;
+    line-height: 220%;
     color: #000000;
     background: #FFFFFF;
     border-radius: 14px;
     margin: 2% 0% 0% 16.5%;
-    padding: 1vh 5% 5% 3vw;
-    overflow: visible;
+    padding: 4vh 5% 5% 5vw;
+    overflow: hidden;
 }
 .gud2cu{
     position: absolute;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 0.5vw;
+    font-size: 1vw;
     line-height: -30%;
     color: rgba(0, 0, 0, 0.65);
 }
