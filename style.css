@@ -343,19 +343,19 @@ th{
 }
 #courselist{
     position: absolute;
-    margin: 5% 5% 5% 0% ;
-    width:60vw; 
+    margin: -9% -50% 5% -15% ;
+    width:98%; 
     height: 10%;
     overflow:auto;
     flex-direction: row;
 }
 .btn-group button {
-    padding: 0.5% 0% 0.5% 1%; 
+    padding: 1% 29% 0% 8%; 
     cursor: pointer;
     text-align: center; 
     line-height: 0.5%;
-    margin: 0.5%;
-    font-size: 1vw;
+    margin: 2%;
+    font-size: 6vw;
 }
 #search{
     margin: 2%  2% 10%;
@@ -386,7 +386,6 @@ th{
     padding: 0% 0% 1% 4% ;
 }
 .comptext2{
-  
     font-size: 3vw;                           
     line-height: 180%;
     
