@@ -217,11 +217,11 @@
     font-family:'Baloo Bhai 2', cursive;
     padding: 0% 0% 1% 2%; 
     font-size: 5vw;
-    line-height: 155%;
+    line-height: 145%;
     color: #2F66F3;
     background: #FFFFFF;
     border-radius: 20px;
-    cursor: pointer;
+   
 }
 #c-inprog:hover{
     box-shadow: 0px 10px 10px rgba(109, 148, 247, 0.15);
@@ -278,7 +278,7 @@ th{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 0.9vw;
-    line-height: 19px;
+    line-height: -10%;
     margin: 0% 3% 0% 15% ;
     color: #000000;
 }
@@ -290,7 +290,7 @@ th{
     font-style: normal;
     font-weight: 600;
     font-size: 0.8vw;
-    line-height: 15px;
+    line-height: -10%;
     margin: 0% 3% 0% 50% ;
     color: rgba(0, 0, 0, 0.76);
 
