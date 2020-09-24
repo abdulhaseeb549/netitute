@@ -46,10 +46,10 @@
     overflow: hidden;
 }
 .nav-link{
-    padding: 8%;
-    font-size: 0.8VW;
+    padding: 10%;
+    font-size: 0.9VW;
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 1%;
+    letter-spacing: 0%;
     font-weight:500 ;
     color: rgba(153, 153, 153, 0.6);
     text-decoration: none;
@@ -59,18 +59,21 @@
     margin: 0% -27% 20% 0%; 
 }
 .nav-link svg{
-    width: 3vw;
-    height: 3vh;    
+    width: 2.5vw;
+    height: 2.5vh;    
     fill: rgba(153, 153, 153, 0.6);
     vertical-align: text-top;
     
 }
 .nav-link svg:hover{
     fill: #2F66F3; 
+    width: 3vw;
+    height: 3vh;
  }
 .nav-link:hover{
    color: #2F66F3;
-    border-radius: 10px;
+    
+    font-size: 1vw;
 }
 #welcome{
     position: absolute;
