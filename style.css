@@ -332,10 +332,10 @@ th{
     line-height: 130%;
 }
 #hiboy{
-    width: 38vw;
-    height: 50vh;
-    left: 55%;
-    top: -60%;
+    width: 25vw;
+    height: 23vh;
+    left: 65%;
+    top: 3%;
 }
 ::-webkit-scrollbar{
     height: 0.5vh;
