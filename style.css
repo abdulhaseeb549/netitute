@@ -176,7 +176,7 @@
     left: 50px;
 }
 #search{
-    margin: 0.5% 10px 2% 60%;
+    margin: 2% 10px 2% 60%;
     border: none;
     width: 25vw;
     height: 4vh;
@@ -189,11 +189,10 @@
     width: 16vw;
     height: 14.5vh;
     background: #FFFFFF;
-    border-radius: 14px;
-    line-height: -1%;
+    border-radius: 20px;
+    line-height: 155%;
     padding: 0% 0% 1% 2% ;
     font-family:'Baloo Bhai 2', cursive;
-   
     font-size: 5vw;
     color: #2F66F3;
 }
@@ -218,10 +217,10 @@
     font-family:'Baloo Bhai 2', cursive;
     padding: 0% 0% 1% 2%; 
     font-size: 5vw;
-    line-height: 150%;
+    line-height: 155%;
     color: #2F66F3;
     background: #FFFFFF;
-    border-radius: 14px;
+    border-radius: 20px;
     cursor: pointer;
 }
 #c-inprog:hover{
