@@ -46,12 +46,12 @@
     overflow: hidden;
 }
 .nav-link{
-    padding: 15%;
-    font-size: 1vw;
+    padding: 8%;
+    font-size: 0.8VW;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1%;
-    font-weight:bold ;
-    color: rgba(0, 0, 0, 0.50);
+    font-weight:500 ;
+    color: rgba(153, 153, 153, 0.6);
     text-decoration: none;
 }
 .nav-item{
@@ -61,8 +61,9 @@
 .nav-link svg{
     width: 3vw;
     height: 3vh;    
-    fill: rgba(0, 0, 0, 0.40);
+    fill: rgba(153, 153, 153, 0.6);
     vertical-align: text-top;
+    
 }
 .nav-link svg:hover{
     fill: #2F66F3; 
