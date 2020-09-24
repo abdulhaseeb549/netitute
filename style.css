@@ -361,16 +361,35 @@ th{
     left: 50%;
     top: 2%;
 }
+::-webkit-scrollbar{
+    
+    height: 0.5vh;
+    background-color: white;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    border: 0px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background:#1FE882;
+    border-radius: 10px;    
+}
 
 #courselist{
     position: absolute;
     width:100vw; 
     height: 10%;
-    
-    
     overflow:auto;
-    
     flex-direction: row;
+}
+.btn-group button {
+    padding: 1% 1% 1% 1%; 
+    cursor: pointer;
+    text-align: center; 
+    line-height: 0.5%;
+    margin: 0.5%;
+    font-size: 1vw;
 }
 
 
