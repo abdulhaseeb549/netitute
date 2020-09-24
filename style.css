@@ -337,10 +337,10 @@ th{
     line-height: 130%;
 }
 #hiboy{
-    width: 25vw;
-    height: 23vh;
+    width: 35vw;
+    height: 33vh;
     left: 65%;
-    top: 3%;
+    top: -20%;
 }
 ::-webkit-scrollbar{
     height: 0.5vh;
@@ -349,18 +349,20 @@ th{
 #courselist{
     position: absolute;
     margin: -9% -50% 5% -15% ;
+    padding: 1%;
     width:98%; 
     height: 10%;
     overflow:auto;
     flex-direction: row;
 }
 .btn-group button {
-    padding: 1% 29% 0% 8%; 
+    padding:6% 22% 6% 8%; 
     cursor: pointer;
-    text-align: center; 
     line-height: 0.5%;
     margin: 2%;
-    font-size: 6vw;
+    font-size: 4vw;
+    border-radius: 25px;
+    
 }
 #search{
     margin: 2%  2% 10%;
