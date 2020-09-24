@@ -291,12 +291,12 @@ th{
     *{
         margin: 0px;
         padding: 0px;
-        
     }
 #nav-bar{
-   bottom:0;
+   bottom:0%;
    width: 100vw;
-   height: 5vh;
+   height: 10vh;
+    box-shadow:rgba(109, 148, 247, 0.15);
 }
 .navbar-nav{
     margin-top: 0%;
@@ -311,14 +311,19 @@ th{
 }
 .nav-item{
     align-items: verticle;
-    margin: 5% 0% 0% 9%; 
+    padding: 1%;
+    margin: 3% 0% 0% 8%; 
 }
 .nav-link svg{
-    width: 3vw;
-    height: 3vh;    
+    width: 5vw;
+    height: 5vh;    
     fill: rgba(153, 153, 153, 0.5);
-    vertical-align: text-top;   
 }
+.nav-link svg:hover{
+    fill: #2F66F3; 
+    width: 6vw;
+    height: 6vh;
+ }
 #welcome{
     border-radius: 10px;
     width: 98vw;
