@@ -310,18 +310,15 @@ th{
    height: 5rem;
 }
 .navbar-nav{
-  
     margin-top: 0%;
     margin-left: 0%; 
     flex-direction: row;
-
+}
+.link-text{
+    display: none;
 }
 .nav-link{
-    padding: 10%;
-    font-size: 0.9VW;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0%;
-    font-weight:500 ;   
+    
     justify-content: center;
 }
 .nav-item{
@@ -331,7 +328,7 @@ th{
 .nav-link svg{
     width: 3vw;
     height: 3vh;    
-    fill: rgba(153, 153, 153, 0.6);
+    fill: rgba(153, 153, 153, 0.5);
     vertical-align: text-top;
     
 }
@@ -365,7 +362,16 @@ th{
     top: 2%;
 }
 
-
+#courselist{
+    position: absolute;
+    width:100vw; 
+    height: 10%;
+    
+    
+    overflow:auto;
+    
+    flex-direction: row;
+}
 
 
 
