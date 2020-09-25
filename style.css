@@ -297,10 +297,11 @@ th{
 
 }
 @media screen and (max-width:600px){
-    *{
+    *,*::before*::after{
         margin: 0px;
         padding: 0px;
         overflow-x: hidden;
+        box-sizing: border-box;
     }
 #nav-bar{
    bottom:0%;
