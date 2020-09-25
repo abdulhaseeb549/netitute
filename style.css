@@ -2,8 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
+    overflow: hidden;
+   
       
 }
 
@@ -291,6 +291,7 @@ th{
     *{
         margin: 0px;
         padding: 0px;
+        overflow-x: hidden;
     }
 #nav-bar{
    bottom:0%;
@@ -398,7 +399,9 @@ th{
     line-height: 180%;
     
 }                     
-
+#find{
+    display: none;
+}
 
 
 
