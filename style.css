@@ -354,9 +354,10 @@ th{
     height: 10%;
     overflow:auto;
     flex-direction: row;
+    text-align: center;
 }
 .btn-group button {
-    padding:4% 20% 4% 8%; 
+    padding:1% 20% 1% 10%; 
     cursor: pointer;
     line-height: 0.5%;
     margin: 2%;
